@@ -1,0 +1,252 @@
+{
+	"brand": {
+		"initial": "A",
+		"name": "Akshita",
+		"suffix": ".dev"
+	},
+	"navItems": [
+		{ "label": "Home", "href": "#hero" },
+		{ "label": "About", "href": "#about" },
+		{ "label": "Skills", "href": "#skills" },
+		{ "label": "Projects", "href": "#projects" },
+		{ "label": "Experience", "href": "#experience" },
+		{ "label": "Education", "href": "#education" },
+		{ "label": "Certifications", "href": "#certifications" },
+		{ "label": "Achievements", "href": "#achievements" },
+		{ "label": "Contact", "href": "#contact" }
+	],
+	"hero": {
+		"badge": "Open to opportunities",
+		"greeting": "Hi, I'm ",
+		"name": "Akshita Varma",
+		"roleIcon": "database",
+		"role": "Data Engineer",
+		"description": "I design and build scalable data architectures that transform raw data into actionable insights. Specializing in real-time pipelines, cloud-native data platforms, and enterprise data warehousing solutions.",
+		"ctaLabel": "Contact Me",
+		"ctaHref": "#contact",
+		"monogram": "AV",
+		"monogramTagline": "Data Engineer",
+		"floatBadgeTop": { "icon": "cloud", "label": "Cloud Expert" },
+		"floatBadgeBottom": { "icon": "barchart3", "label": "Data Architect" }
+	},
+	"about": {
+		"subtitle": "Passionate about transforming data into strategic assets",
+		"headingLead": "Building the backbone of ",
+		"headingHighlight": "data-driven organizations",
+		"paragraphs": [
+			"With over 3 years of professional experience in data engineering, I specialize in designing and implementing robust, scalable data architectures that empower businesses to make data-driven decisions at speed.",
+			"My expertise spans the full data engineering lifecycle — from ingesting raw data through real-time and batch pipelines, to building enterprise-grade data warehouses and lakes on modern cloud platforms. I thrive on solving complex data challenges and turning chaotic data landscapes into well-governed, reliable data ecosystems.",
+			"I'm certified across AWS, Azure, and GCP, and I'm passionate about staying ahead of the curve with emerging technologies in the data space. My goal is to build data platforms that are not just functional, but elegant and future-proof."
+		],
+		"stat": { "value": "99.99%", "label": "Pipeline Uptime" }
+	},
+	"skills": [
+		{
+			"category": "Programming Languages",
+			"icon": "code2",
+			"color": "from-blue-500 to-cyan-500",
+			"skills": ["Python", "SQL", "Scala"]
+		},
+		{
+			"category": "Data Engineering",
+			"icon": "layers",
+			"color": "from-violet-500 to-fuchsia-500",
+			"skills": ["ETL Pipelines", "Data Warehousing", "Data Modeling"]
+		},
+		{
+			"category": "Big Data Technologies",
+			"icon": "activity",
+			"color": "from-orange-500 to-red-500",
+			"skills": ["Apache Spark", "Hadoop", "Apache Kafka"]
+		},
+		{
+			"category": "Cloud Platforms",
+			"icon": "cloud",
+			"color": "from-cyan-500 to-teal-500",
+			"skills": ["AWS", "Microsoft Azure", "Google Cloud Platform"]
+		},
+		{
+			"category": "Databases",
+			"icon": "database",
+			"color": "from-emerald-500 to-green-500",
+			"skills": ["PostgreSQL", "MySQL", "MongoDB", "Snowflake"]
+		},
+		{
+			"category": "Tools & DevOps",
+			"icon": "wrench",
+			"color": "from-amber-500 to-orange-500",
+			"skills": ["Apache Airflow", "Docker", "Git"]
+		}
+	],
+	"projects": [
+		{
+			"title": "Real-Time Data Pipeline",
+			"description": "Engineered a high-throughput real-time data pipeline processing 2M+ events per second using Apache Kafka and Spark Streaming. Implemented exactly-once semantics and automated data quality checks with 99.99% uptime.",
+			"tags": ["Apache Kafka", "Spark Streaming", "Python", "AWS", "Docker"],
+			"icon": "workflow",
+			"gradient": "from-blue-600 to-cyan-600",
+			"accent": "blue"
+		},
+		{
+			"title": "Customer Analytics Data Warehouse",
+			"description": "Designed and implemented a scalable star-schema data warehouse on Snowflake serving 500+ business users. Reduced query latency by 70% and enabled self-service analytics across 12 departments.",
+			"tags": ["Snowflake", "dbt", "Airflow", "Python", "SQL"],
+			"icon": "database",
+			"gradient": "from-violet-600 to-fuchsia-600",
+			"accent": "purple"
+		},
+		{
+			"title": "Streaming Analytics Platform",
+			"description": "Built an end-to-end streaming analytics platform with real-time dashboards for IoT sensor data. Processed 10TB+ daily with sub-second latency using Flink and Elasticsearch for anomaly detection.",
+			"tags": ["Apache Flink", "Elasticsearch", "Kafka", "React", "Grafana"],
+			"icon": "activity",
+			"gradient": "from-orange-600 to-red-600",
+			"accent": "orange"
+		},
+		{
+			"title": "Cloud Data Lake Solution",
+			"description": "Architected a multi-cloud data lake on AWS S3 with Delta Lake format, enabling ACID transactions on petabyte-scale datasets. Implemented automated data governance and lineage tracking with Apache Atlas.",
+			"tags": ["AWS S3", "Delta Lake", "Spark", "Terraform", "Apache Atlas"],
+			"icon": "cloud",
+			"gradient": "from-emerald-600 to-teal-600",
+			"accent": "emerald"
+		}
+	],
+	"experiences": [
+		{
+			"company": "TechCorp Solutions Pvt. Ltd.",
+			"role": "Senior Data Engineer",
+			"duration": "Jan 2023 – Present",
+			"location": "Hyderabad, India",
+			"achievements": [
+				"Led the migration of legacy ETL pipelines to Apache Spark, reducing processing time by 65%",
+				"Architected real-time data streaming infrastructure handling 2M+ events/second",
+				"Mentored a team of 5 junior data engineers and established coding best practices",
+				"Implemented automated data quality frameworks reducing data incidents by 80%"
+			]
+		},
+		{
+			"company": "DataFlow Analytics",
+			"role": "Data Engineer",
+			"duration": "Jul 2021 – Dec 2022",
+			"location": "Bangalore, India",
+			"achievements": [
+				"Designed and built a cloud-native data warehouse on Snowflake serving 500+ users",
+				"Developed automated CI/CD pipelines for data infrastructure using Terraform & Docker",
+				"Optimized SQL queries resulting in 70% reduction in compute costs on BigQuery",
+				"Created comprehensive data documentation and lineage tracking system"
+			]
+		},
+		{
+			"company": "InnoData Systems",
+			"role": "Junior Data Engineer",
+			"duration": "Jun 2020 – Jun 2021",
+			"location": "Hyderabad, India",
+			"achievements": [
+				"Built ETL pipelines using Python and Apache Airflow for batch data processing",
+				"Managed PostgreSQL and MongoDB databases with 99.9% uptime SLA",
+				"Collaborated with data science team to deploy ML model serving infrastructure",
+				"Automated reporting workflows saving 20+ hours per week for the analytics team"
+			]
+		}
+	],
+	"education": {
+		"degree": "B.Tech in Computer Science",
+		"institution": "IIIT Hyderabad",
+		"field": "Computer Science & Engineering",
+		"location": "Hyderabad, Telangana, India",
+		"description": "Graduated with a strong foundation in computer science fundamentals, data structures, algorithms, and database systems. Developed a passion for data engineering through academic projects and extracurricular activities including hackathons and technical workshops.",
+		"year": "2020",
+		"yearLabel": "Graduated",
+		"coursework": [
+			"Database Systems",
+			"Distributed Computing",
+			"Data Structures",
+			"Cloud Computing",
+			"Machine Learning",
+			"Big Data Analytics"
+		]
+	},
+	"certifications": [
+		{
+			"title": "AWS Certified Data Engineer – Associate",
+			"issuer": "Amazon Web Services",
+			"date": "2023",
+			"icon": "cloud",
+			"color": "from-amber-500 to-orange-600",
+			"badgeColor": "bg-amber-500/10 text-amber-400 border-amber-500/20"
+		},
+		{
+			"title": "Microsoft Azure Data Engineer Associate",
+			"issuer": "Microsoft",
+			"date": "2023",
+			"icon": "server",
+			"color": "from-blue-500 to-indigo-600",
+			"badgeColor": "bg-blue-500/10 text-blue-400 border-blue-500/20"
+		},
+		{
+			"title": "Google Cloud Professional Data Engineer",
+			"issuer": "Google Cloud",
+			"date": "2022",
+			"icon": "shield",
+			"color": "from-emerald-500 to-teal-600",
+			"badgeColor": "bg-emerald-500/10 text-emerald-400 border-emerald-500/20"
+		}
+	],
+	"achievements": [
+		{
+			"title": "1st Place – National Data Engineering Hackathon",
+			"description": "Won the national-level hackathon at IIT Hyderabad for building a real-time fraud detection pipeline processing 1M+ transactions.",
+			"icon": "trophy",
+			"color": "from-yellow-500 to-amber-600"
+		},
+		{
+			"title": "Best Innovation Award – DataHack 2023",
+			"description": "Received the Best Innovation Award for designing an AI-powered data quality monitoring system with self-healing capabilities.",
+			"icon": "award",
+			"color": "from-violet-500 to-fuchsia-600"
+		},
+		{
+			"title": "Top 10 – Global Data Engineering Challenge",
+			"description": "Ranked in the top 10 out of 5,000+ participants in the Global Data Engineering Challenge hosted by a leading tech company.",
+			"icon": "target",
+			"color": "from-blue-500 to-cyan-600"
+		},
+		{
+			"title": "Data Engineering Excellence Award",
+			"description": "Recognized by TechCorp Solutions for outstanding contributions to the company's data platform modernization initiative.",
+			"icon": "star",
+			"color": "from-emerald-500 to-teal-600"
+		}
+	],
+	"contactMethods": [
+		{
+			"icon": "mail",
+			"label": "Email",
+			"value": "akshita.varma@example.com",
+			"href": "mailto:akshita.varma@example.com",
+			"color": "from-violet-500 to-violet-700"
+		},
+		{
+			"icon": "phone",
+			"label": "Phone",
+			"value": "+91 98765 43210",
+			"href": "tel:+919876543210",
+			"color": "from-emerald-500 to-teal-600"
+		},
+		{
+			"icon": "mappin",
+			"label": "Location",
+			"value": "Hyderabad, Telangana, India",
+			"href": "#",
+			"color": "from-orange-500 to-red-600"
+		}
+	],
+	"contactSection": {
+		"subtitle": "Let's discuss how I can help with your data engineering needs",
+		"availabilityLabel": "Currently Available",
+		"availabilityText": "I'm open to full-time roles, contract positions, and consulting opportunities in data engineering and architecture."
+	},
+	"footerLinks": ["About", "Skills", "Projects", "Experience", "Contact"],
+	"copyrightName": "Akshita Varma"
+}
